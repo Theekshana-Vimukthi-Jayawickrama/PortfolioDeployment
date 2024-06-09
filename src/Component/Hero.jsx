@@ -48,12 +48,9 @@ const Hero = () => {
               My name is Theekshana and I am a student in Sabaragamuwa University of Sri Lanka.
             </p>
             <div className='my-8'>
-              <a href="/" className='w-full px-6 py-3 mr-4 text-white rounded-xl bg-gradient-to-br from-orange-500 to-pink-500'>
-                Download CV
-              </a>
               {/* Contact button scrolls to Contact section */}
               <Link to="contact" spy={true} smooth={true} duration={500}>
-                <button className='px-6 py-3 mr-4 text-white border border-gray-400  rounded-xl hover:bg-gradient-to-br from-orange-500 to-pink-500 hover:border-none'>
+                <button className='px-6 py-3 mr-4 text-white border border-gray-400 rounded-xl hover:bg-gradient-to-br from-orange-500 to-pink-500 hover:border-none'>
                   Contact
                 </button>
               </Link>
